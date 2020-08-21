@@ -28,3 +28,10 @@ var unleashDog = function(dogName="Byron", dogBreed="poodle") {
   return `Unleash ${dogname} the ${dogBreed}`
 }
 
+const routine = [wakeDog, leashDog, walkToPark, throwFrisbee, walkHome,unleashDog]
+
+function exerciseDog(dogName, dogBreed){
+
+  return routine.map()
+
+}
