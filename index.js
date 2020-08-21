@@ -25,5 +25,6 @@ var walkHome = function(dogName="Byron", dogBreed="poodle") {
 
 var unleashDog = function(dogName="Byron", dogBreed="poodle") {
   console.log(`Unleash ${dogname} the ${dogBreed}`);
-  return 
+  return `Unleash ${dogname} the ${dogBreed}`
+}
 
