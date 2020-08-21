@@ -4,17 +4,17 @@ var wakeDog = function(dogName="Byron", dogBreed="poodle") {
 }
 
 var leashDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Leash ${dogname} the ${dogBreed}`);
-  return `Leash ${dogname} the ${dogBreed}`
+  console.log(`Leash ${dogName} the ${dogBreed}`);
+  return `Leash ${dogName} the ${dogBreed}`
 }
 
 var walkToPark = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Walk to the park with ${dogname} the ${dogBreed}`);
-  return `Walk to the park with ${dogname} the ${dogBreed}`
+  console.log(`Walk to the park with ${dogName} the ${dogBreed}`);
+  return `Walk to the park with ${dogName} the ${dogBreed}`
 }
 
 var throwFrisbee = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Throw the frisbee for ${dogname} the ${dogBreed}`);
+  console.log(`Throw the frisbee for ${dogName} the ${dogBreed}`);
   return `Throw the frisbee for ${dogname} the ${dogBreed}`
 }
 
