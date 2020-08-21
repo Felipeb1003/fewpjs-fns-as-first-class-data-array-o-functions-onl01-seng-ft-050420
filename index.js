@@ -4,6 +4,11 @@ var wakeDog = function(dogName="Byron", dogBreed="poodle") {
 }
 
 var leashDog = function(dogName="Byron", dogBreed="poodle") {
-  console.log(``)
+  console.log(`Leash ${dogname} the ${dogBreed}`);
+  return `Leash ${dogname} the ${dogBreed}`
 }
 
+var walkToPark = function(dogName="Byron", dogBreed="poodle") {
+  console.log(`Leash ${dogname} the ${dogBreed}`);
+  return `Leash ${dogname} the ${dogBreed}`
+}
