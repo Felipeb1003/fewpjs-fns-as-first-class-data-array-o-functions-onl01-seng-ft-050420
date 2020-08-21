@@ -9,6 +9,19 @@ var leashDog = function(dogName="Byron", dogBreed="poodle") {
 }
 
 var walkToPark = function(dogName="Byron", dogBreed="poodle") {
-  console.log(`Leash ${dogname} the ${dogBreed}`);
-  return `Leash ${dogname} the ${dogBreed}`
+  console.log(`Walk to the park with ${dogname} the ${dogBreed}`);
+  return `Walk to the park with ${dogname} the ${dogBreed}`
 }
+
+var throwFrisbee = function(dogName="Byron", dogBreed="poodle") {
+  console.log(`Throw the frisbee for ${dogname} the ${dogBreed}`);
+  return `Throw the frisbee for ${dogname} the ${dogBreed}`
+}
+
+var walkHome = function(dogName="Byron", dogBreed="poodle") {
+  console.log(`Walk home with ${dogname} the ${dogBreed}`);
+  return `Walk home with ${dogname} the ${dogBreed}`
+}
+
+
+
